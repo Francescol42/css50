@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+            </div>
+        </div>
+        <div class ="container">
+            <div class ="scoreboard" id="home-score">0</div>
+            <div class ="scoreboard" id="away-score">0 </div>
+        </div>
+        <div class="container">
+            <div class="buttons">
+                <button class="but" onclick="home1()">+1</button>
+                <button class="but" onclick="home2()">+2</button>
+                <button class="but" onclick="home3()">+3</button>
+            </div>
+            <div class="buttons">
+                <button class="but" onclick="away1()">+1</button>
+                <button class="but" onclick="away2()">+2</button>
+                <button class="but" onclick="away3()">+3</button>
+            </div>
+        </div>
+        <div>
+            <p id="leading">The two Teams are tying 0 to 0</p>
+        </div>
+            <button class="but" onclick="newGame()">New newGame </button>
+        <script src="index.js"></script>
+    </body>
+</html>
